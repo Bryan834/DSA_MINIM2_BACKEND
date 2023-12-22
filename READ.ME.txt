@@ -1,0 +1,15 @@
+● T2. Nueva ruta en el backend que proporcione una lista de mensajes.
+
+-En esta tarea podemos observar en el models, la plantilla de un mensaje en el apartado de MODELS
+
+-Despues hemos implementado el JuegoManagerImpl i en su interfaz correspondiente (JuegoManager) las funciones:addMensajesGenerales que funcionará gracias a la 
+implementación de una Lista creada a partir de la clase mensaje.
+
+-Después deberemos crear el servicio, para que se pueda conectar desde el swagger, donde de primeras, hemos creado dicho servicio en el UsuarioService, pero
+esto hace que el ejercicio tenga una ruta que no queremos(/usuario/posts). Por lo que hemos tenido que crear otro servicio (MinimService) para que la ruta sea
+la más precisa posible aunque en el enterior comentado no se ha borrado
+
+
+
+
+ATENCIÓN: EN ESTE EJERCICIO TIENE IMPLEMENTADO OTRO EJERCICIO DEL AÑO PASADO PARA PRACTICAR (insignias), NO CONFUNDIR
